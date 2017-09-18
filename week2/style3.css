@@ -1,0 +1,47 @@
+.menu a{
+	color: green;
+}
+.item{
+	border: 1px solid red;
+	border-radius: 8px;
+}
+.item img{
+	padding: 15px 15px 15px 15px;
+	height: 150px;
+}
+.item .main_body{
+	display: inline-block; 
+	position: absolute;
+	padding-top: 25px;
+}
+.item .main_body .title a{
+	font-size: 45px;
+}
+.item .main_body .title span{
+	display: inline-block;
+}
+.item .main_body .title span.price{
+	background-color: pink;
+	border-radius: 10px;
+	font-size: 45px;
+	color: green;
+}
+.item .main_body .title span.text_for{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.item .description {
+	font-size: 30px;
+}
+.item .attributes {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.item .attributes span.city{
+	font-weight: bold;
+}
+.item.urgent{
+	background-color: yellow;
+}
