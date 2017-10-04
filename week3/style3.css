@@ -29,7 +29,7 @@ a{
 	color: black;
 	font-size: 20px;
 }
-a.active:hover{
+header nav a:hover{
 	background-color: red;
 	color: white;
 }
@@ -87,16 +87,6 @@ section.main_section{
 	width: 180px;
 	height: 168px;
 }
-
-
-
-
-
-
-
-
-
-
 .container footer{
 	display: flex;
 	height: 50px;
