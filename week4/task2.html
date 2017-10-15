@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
 	<style>
   
@@ -29,27 +29,29 @@
     padding-right: 15px;
   }
 
-@media screen and (max-width: 800px){
+@media (max-width: 400px){
   .card{
-    height: 7%;
-    position: relative;
+    display: inline-block;
+    border: 1px solid blue;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 5px;
+    margin-bottom: 5px; 
   }
-
   .info a{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 25px;
     font-weight: bold;
-    position: absolute;
+    text-align: center;
     padding-left: 2%;
   }
-  .info .price{
+   .price{
     margin-top: 2%;
     margin-bottom: 2%;
-    position: absolute;
     right: 15px;
   }
-  .card img{
+  img{
     display: none;
   }
   .desc{
