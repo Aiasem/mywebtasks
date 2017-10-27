@@ -8,11 +8,19 @@ function AddStudent(){
 	let faculty = document.createElement("td");
 
 	let _name = document.querySelector("#name");
+	_name.className = "";
+
 	let _surname = document.querySelector("#surname");
-	
-	if(document.getElementById("name").value == "" || document.getElementById("surname").value == ""){
-		_name.style.border = "2px solid red";
-		_surname.style.border ="2px solid red";
+	_surname.className ="";
+
+	let _faculty = document.querySelector("#faculty");
+	_faculty.className = "";
+
+	if(_name.value == "" ){
+		_name.className = "error";
+	}
+	if(_surname.value ==""){
+		_surname.className = "error";
 	}
 	else{
 		name.innerHTML = _name.value;

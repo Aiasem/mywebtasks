@@ -1,0 +1,598 @@
+html,body{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	font-family: "Times New Roman" , serif;
+	color: #6f6f6f;
+	background: #262626;
+}
+/*header*/
+.header {
+	background:url(C:/Aiasem/mywebtasks/project1/images/background.jpg) 0 0 repeat;
+	position:relative;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header>div {
+	position:relative;
+	width:100%;
+	background:url(C:/Aiasem/mywebtasks/project1/images/header-line.jpg) 0 bottom repeat-x;
+}
+header {
+	width:1024px;
+	margin:0 auto;
+	z-index:1000;
+	position:relative;
+}
+.header .nav {
+	position:absolute;
+	width:100%;
+	z-index:999;
+	padding-bottom:1px;
+}
+nav {
+	background:url(C:/Aiasem/mywebtasks/project1/images/nav.png) 0 0 repeat;
+	width:1024px;
+	margin:3px auto 0 auto;
+	position:relative;
+}
+.subpages-nav {
+	position:relative;
+	width:100%;
+	z-index:999;
+	height:174px;
+	background: url(C:/Aiasem/mywebtasks/project1/images/banner.jpg)  center 0 no-repeat;  	
+}
+.subpages-nav nav {
+	background:transparent;
+	padding-top:60px;
+	margin-top:0;
+}
+h1 {
+	display:inline-block;
+	z-index:100;
+	position:absolute;
+	top:0;
+	left:425px;
+	z-index:1000;
+}
+h1 img{
+	width: 50%;
+	height: 50%;
+}
+ul.menu {
+	display:block;
+	padding:46px 0 75px 21px;
+}
+ul.menu li {
+	float:left;
+	display:inline-block;
+	line-height:24px;
+	padding:0 40px 0 40px;
+}
+ul.menu li.li-none {
+	background:transparent;
+}
+ul.menu li.li-left {
+	margin-left:200px;
+}
+ul.menu li a {
+	font-size:23px;
+	line-height:24px;
+	color: white;
+	font-style:italic;
+	display:inline-block;
+	text-decoration: none;
+}
+ul.menu li a:hover, ul.menu li.current a {
+	color: #ff00ff;
+}
+/*content*/
+h3{
+	font-size: 25px;
+	color:  #ff99e7;
+	font-weight: bold;
+	font-style: italic;
+}
+.h3{
+	border-bottom: #353535 3px solid;
+	padding-top: 2.5%;
+	padding-bottom: 3.5%;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+#content {
+	width:1024px;
+	margin:0 auto;
+	background:url(C:/Aiasem/mywebtasks/project1/images/background.jpg) 0 0 repeat;
+	padding-bottom:49px;
+	border-bottom:#303030 2px solid;
+	flex: 1;
+}
+select.categories{
+	display: flex;
+	width: 180px;
+	height: 40px;
+	margin-bottom: 8px;
+	border-radius: 15px;
+	font-family: 'Pacifico', cursive; 
+	color: black;
+	background-color:  #ff00ff;
+	font-size: 23px;
+}
+.h2 {
+	color: #bf96c7;
+	border-bottom:#353535 2px solid;
+	padding-bottom:7px;
+}
+.pad-1 {
+	padding-left:20px;
+	padding-right:40px;
+}
+.page6-row1 {
+	overflow:hidden;
+	padding-top:15px;
+}
+.col-14 {
+	float:left;
+	width:200px;
+	margin-right:50px;
+}
+/*product*/
+.productlist {
+    margin-top: 15px;
+}
+div, a, span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    color: #bf96c7 ;
+}
+.productlist .product {
+    position: relative;
+    float: left;
+    margin: 0 40px 20px 25px;
+}
+ .productlist .product .desc a {
+    color: #a3a3af;
+    line-height: 1.45em;
+}
+
+.productlist .product .imagecontainer {
+    display: block;
+    min-height: 100px;
+    text-align: center;
+    position: relative;
+    border: #e4dfe2 1px solid;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+.productlist .product .imagecontainer .inner {
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+img.prodimg{
+	width: 165px;
+	height: 240px;
+	display: flex;
+	align-items: center;
+}
+span.img1{
+	width: 165px;
+	height: 200px;
+}
+.productlist .product .title {
+    margin-bottom: 6px;
+    font-style: italic;
+	font-size: 20px;
+	color: #bf96c7;
+	text-align: center;
+}
+.productlist .product .foot {
+    height: auto;
+    margin-top: 5px;
+    height: 25px;
+}
+.productlist .product .foot .price{
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#content .productlist .product .foot .price {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    color: #a3a3af;
+}
+div.buttoncont{
+	margin-left: auto;
+	margin-right: auto;
+}
+.productlist .product .foot .buttoncont,  .productlist .product .foot .buttoncont a{
+    width: 100%;
+    background-repeat: repeat;
+}
+.productlist .product .foot .buttoncont {
+	width: 120px;
+    margin-top: 5px;
+}
+.buttoncont a{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+.productlist .product .foot .buttoncont {
+    right: 0;
+    bottom: 0;
+}
+.buttoncont {
+    display: block;
+    margin: 0;
+    background: #fc6c6b;
+    border-radius: 4px;
+}
+.productlist .product .desc a {
+    color: #a3a3af;
+}
+.search_{
+	width:1024px;
+	margin:0 auto;
+	padding-bottom:20px;
+	border-bottom:#303030 1px solid;
+	background:url(C:/Aiasem/mywebtasks/project1/images/background.jpg) 0 0 repeat;
+	margin-right: auto;
+	margin-left: auto;
+	flex:1;
+	display: inline-flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+input.www{
+	width: 350px; 
+	height: 30px;
+	border: 2px solid #ff66d9;
+	border-radius: 10px;
+	margin-right: 30px;
+}
+button.btn{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	border: 2px solid #ff66d9;
+	border-radius: 10px;
+}
+img.icon_search{
+	width: 32px;
+	height: 32px;
+}
+/*footer*/
+/*footer*/
+footer {
+	background-color: black;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	padding:5px 0 10px 0;
+}
+footer span {
+	display:inline-block;
+	margin:0 auto;
+	padding-top:10px;
+	font-size: 15px;
+}
+@media screen and (max-width: 800px){
+		html,body{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+
+		font-family: "Times New Roman" , serif;
+		color: #6f6f6f;
+		background: #262626;
+	}
+	/*header*/
+	.header {
+		background:url(C:/Aiasem/mywebtasks/project1/images/background.jpg) 0 0 repeat;
+		position:relative;
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header>div {
+		position:relative;
+		width:100%;
+		background:url(C:/Aiasem/mywebtasks/project1/images/header-line.jpg) 0 bottom repeat-x;
+	}
+	header {
+		width:1024px;
+		margin:0 auto;
+		z-index:1000;
+		position:relative;
+	}
+	.header .nav {
+		position:absolute;
+		width:100%;
+		z-index:999;
+		padding-bottom:1px;
+	}
+	nav {
+		background:url(C:/Aiasem/mywebtasks/project1/images/nav.png) 0 0 repeat;
+		width:1024px;
+		margin:3px auto 0 auto;
+		position:relative;
+	}
+	.subpages-nav {
+		position:relative;
+		width:100%;
+		z-index:999;
+		height:174px;
+		background: url(C:/Aiasem/mywebtasks/project1/images/banner.jpg)  center 0 no-repeat;  	
+	}
+	.subpages-nav nav {
+		background:transparent;
+		padding-top:60px;
+		margin-top:0;
+	}
+	h1 {
+		display:inline-block;
+		z-index:100;
+		position:absolute;
+		top:0;
+		left:425px;
+		z-index:1000;
+	}
+	h1 img{
+		display: none;
+	}
+	ul.menu {
+		display:block;
+		padding:46px 0 75px 21px;
+	}
+	ul.menu li {
+		float:left;
+		display:inline-block;
+		line-height:24px;
+		padding:0 40px 0 40px;
+	}
+	ul.menu li.li-none {
+		background:transparent;
+	}
+	ul.menu li.li-left {
+		margin-left:200px;
+	}
+	ul.menu li a {
+		font-size:23px;
+		line-height:24px;
+		color: white;
+		font-style:italic;
+		display:inline-block;
+		text-decoration: none;
+	}
+	ul.menu li a:hover, ul.menu li.current a {
+		color: #ff00ff;
+	}
+	/*content*/
+	h3{
+		font-size: 25px;
+		color:  #ff99e7;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.h3{
+		border-bottom: #353535 3px solid;
+		padding-top: 2.5%;
+		padding-bottom: 3.5%;
+	}
+	ul {
+		margin:0;
+		padding:0;
+	}
+	#content {
+		width:1024px;
+		margin:0 auto;
+		background:url(C:/Aiasem/mywebtasks/project1/images/background.jpg) 0 0 repeat;
+		padding-bottom:49px;
+		border-bottom:#303030 2px solid;
+		flex: 1;
+	}
+	select.categories{
+		display: none;
+		
+	}
+	.h2 {
+		color: #bf96c7;
+		border-bottom:#353535 2px solid;
+		padding-bottom:7px;
+	}
+	.pad-1 {
+		padding-left:20px;
+		padding-right:40px;
+	}
+	.page6-row1 {
+		overflow:hidden;
+		padding-top:15px;
+	}
+	.col-14 {
+		float:left;
+		width:200px;
+		margin-right:50px;
+	}
+	/*product*/
+	.productlist {
+	    margin-top: 15px;
+	}
+	div, a, span{
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    font-size: 100%;
+	    font: inherit;
+	    vertical-align: baseline;
+	    display: block;
+	    color: #bf96c7 ;
+	}
+	.productlist .product {
+	    position: relative;
+	    float: left;
+	    margin: 0 40px 20px 25px;
+	}
+	 .productlist .product .desc a {
+	    color: #a3a3af;
+	    line-height: 1.45em;
+	}
+
+	.productlist .product .imagecontainer {
+	    display: block;
+	    min-height: 100px;
+	    text-align: center;
+	    position: relative;
+	    border: #e4dfe2 1px solid;
+	    background: #f5f5f5;
+	    overflow: hidden;
+	}
+	a, a:link, a:visited {
+	    text-decoration: none;
+	    cursor: pointer;
+	}
+	.productlist .product .imagecontainer .inner {
+	    display: inline-block;
+	    zoom: 1;
+	    position: relative;
+	    max-width: 100%;
+	    width: 100%;
+	    text-align: center;
+	}
+	img.prodimg{
+		width: 165px;
+		height: 240px;
+		display: flex;
+		align-items: center;
+	}
+	span.img1{
+		width: 165px;
+		height: 200px;
+	}
+	.productlist .product .title {
+	    margin-bottom: 6px;
+	    font-style: italic;
+		font-size: 20px;
+		color: #bf96c7;
+		text-align: center;
+	}
+	.productlist .product .foot {
+	    height: auto;
+	    margin-top: 5px;
+	    height: 25px;
+	}
+	.productlist .product .foot .price{
+	    font-family: Lato,sans-serif;
+	    font-weight: 400;
+	    text-align: center;
+	}
+	#content .productlist .product .foot .price {
+	    position: relative;
+	    font-size: 18px;
+	    font-weight: bold;
+	    color: #a3a3af;
+	}
+	div.buttoncont{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.productlist .product .foot .buttoncont,  .productlist .product .foot .buttoncont a{
+	    width: 100%;
+	    background-repeat: repeat;
+	}
+	.productlist .product .foot .buttoncont {
+		width: 120px;
+	    margin-top: 5px;
+	}
+	.buttoncont a{
+		color: black;
+		text-align: center;
+		font-weight: bold;
+	}
+	.productlist .product .foot .buttoncont {
+	    right: 0;
+	    bottom: 0;
+	}
+	.buttoncont {
+	    display: block;
+	    margin: 0;
+	    background: #fc6c6b;
+	    border-radius: 4px;
+	}
+	.productlist .product .desc a {
+	    color: #a3a3af;
+	}
+	.search_{
+		width:1024px;
+		margin:0 auto;
+		padding-bottom:20px;
+		border-bottom:#303030 1px solid;
+		background:url(C:/Aiasem/mywebtasks/project1/images/background.jpg) 0 0 repeat;
+		margin-right: auto;
+		margin-left: auto;
+		flex:1;
+		display: inline-flex;
+		justify-content: center;
+		padding-top: 20px;
+	}
+	input.www{
+		width: 350px; 
+		height: 30px;
+		border: 2px solid #ff66d9;
+		border-radius: 10px;
+		margin-right: 30px;
+	}
+	button.btn{
+		width: 80px;
+		height: 30px;
+		text-align: center;
+		border: 2px solid #ff66d9;
+		border-radius: 10px;
+	}
+	img.icon_search{
+		width: 32px;
+		height: 32px;
+	}
+	/*footer*/
+	/*footer*/
+	footer {
+		background-color: black;
+		width:100%;
+		position:relative;
+		overflow:hidden;
+		text-align:center;
+		padding:5px 0 10px 0;
+	}
+	footer span {
+		display:inline-block;
+		margin:0 auto;
+		padding-top:10px;
+		font-size: 15px;
+	}
+}
