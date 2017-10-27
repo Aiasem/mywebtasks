@@ -140,7 +140,7 @@ select.categories{
 	overflow:hidden;
 	padding-top:15px;
 }
-.col-14 {
+.col-1 {
 	float:left;
 	width:200px;
 	margin-right:50px;
@@ -435,7 +435,7 @@ footer span {
 		overflow:hidden;
 		padding-top:15px;
 	}
-	.col-14 {
+	.col-1 {
 		float:left;
 		width:200px;
 		margin-right:50px;

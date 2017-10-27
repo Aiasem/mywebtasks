@@ -140,7 +140,7 @@ select.categories{
 	overflow:hidden;
 	padding-top:15px;
 }
-.col-14 {
+.col-1 {
 	float:left;
 	width:200px;
 	margin-right:50px;
@@ -151,13 +151,13 @@ input.input-image{
 	border: 2px solid #ffb3ff;
 	background-color:  #ffb3ff;
 }
-.col-15 {
+.col-2 {
 	float:left;
 	width:250px;
 	margin-right:89px;
 	margin-left: 40px;
 }
-.col-16 {
+.col-3 {
 	float:right;
 	width:260px;
 }
